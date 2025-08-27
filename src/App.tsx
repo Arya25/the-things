@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import "./index.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div className="min-h-screen flex flex-col bg-white text-slate-900">
+      <Header />
 
-export default App
+      <main className="flex-1">
+        <section className="mx-auto max-w-5xl px-4 py-16">
+          <h1 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight">
+            A community-built network for sensors across NYC.
+          </h1>
+
+          <p className="mt-3 text-lg text-slate-600 max-w-prose">
+            We run an open LoRaWAN for education, research, and civic projects.
+            Explore success stories or get involved.
+          </p>
+
+          <div className="mt-6 flex flex-wrap gap-3">
+            <a
+              href="#"
+              className="inline-block px-4 py-2 rounded-md bg-black text-white font-semibold hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/60"
+            >
+              See Success Stories
+            </a>
+            <a
+              href="#"
+              className="inline-block px-4 py-2 rounded-md border border-slate-200 font-semibold hover:bg-slate-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/20"
+            >
+              Get Involved
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  );
+}
