@@ -8,7 +8,7 @@ export default function Header() {
     <header className="border-b border-slate-200 bg-white">
       <div className="mx-auto max-w-5xl px-4 py-3 flex items-center justify-between">
         <a href="/" className="font-semibold tracking-tight text-slate-900">
-          The Things NYC
+          The Things New York
         </a>
 
         <nav className="flex items-center gap-4">
