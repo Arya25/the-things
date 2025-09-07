@@ -8,7 +8,7 @@ tags: ["Education", "Environment", "Community"]
 cover: "/images/stories/lexus-eco-challenge.jpg"
 ---
 
-![Students who took part in the challenge](/src/assets/images/stories/lexus-eco-challenge.jpg)
+![Students who took part in the challenge](/images/stories/lexus-eco-challenge.jpg)
 
 The globe’s young students are becoming increasingly aware of our planet’s environmental challenges, and their collective commitment to helping alleviate humans’ negative impact is nothing less than stunning. For the 13th year running, the efforts of these students have been supported and rewarded through their participation in the Lexus Eco Challenge, a program, in partnership with Scholastic, that invites more than 2,000 US-based students in grades 6–12 to tackle environmental issues in their communities, create and submit their action plans and results, and compete nationally for a total of $500,000 in grants and scholarships.
 
@@ -27,7 +27,7 @@ The students recognized that losing the Blanding’s turtle would be a significa
 
 Aided by teacher advisors Joel Naatus and Mahvish Haq, R.E.M. Remote Environmental Monitoring helped their Jersey City community identify harmful environmental problems by developing and implementing remote environmental monitoring systems across their community.
 
-![Group of students](/src/assets/images/stories/lexus-1.jpg)
+![Group of students](/images/stories/lexus-1.jpg)
 
 The students set up one system to detect temperature and humidity, another to check hydrogen sulfide and air-quality levels, and a third to detect potentially harmful algal blooms in a local lake. All of the systems will help ensure the public will be able to check readings and know if the areas are safe to visit in the future.
 
@@ -36,8 +36,8 @@ The students set up one system to detect temperature and humidity, another to ch
 
 The Grand Prize and First Place–winning teams that best addressed environmental challenges are listed below.
 
-![List of winners-1](/src/assets/images/stories/lexus-prize-1.png)
-![List of winners-2](/src/assets/images/stories/lexus-prize-2.png)
+![List of winners-1](/images/stories/lexus-prize-1.png)
+![List of winners-2](/images/stories/lexus-prize-2.png)
 
 In support of the United Nations Sustainable Development Agenda, each year the Lexus Eco Challenge helps the more than 2,000 participating students implement their localized ideas and solutions in the positive proliferation of science, technology, engineering, and math (STEM) around the world.
 

@@ -16,7 +16,7 @@ export default function Header() {
           className="font-semibold tracking-tight text-slate-900 flex items-center gap-2"
         >
           <img
-            src="src/assets/images/logo/logo.png"
+            src="/images/logo/logo.png"
             alt="The Things New York"
             className="h-20 w-auto"
           />

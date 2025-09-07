@@ -19,7 +19,7 @@ export type Story = {
 export const stories: Story[] = [
   {
     slug: "ps28-lexus-eco-challenge",
-    imageUrl: "src/assets/images/stories/lexus-eco-challenge.jpg",
+    imageUrl: "/images/stories/lexus-eco-challenge.jpg",
     title:
       "Students from Christa McAuliffe Public School in Jersey City win Lexus Eco Challenge with TTN",
     author: "Jeff Honig",
@@ -35,7 +35,7 @@ export const stories: Story[] = [
   },
   {
     slug: "floodnet-nyc",
-    imageUrl: "src/assets/images/stories/floodnet.jpg",
+    imageUrl: "/images/stories/floodnet.jpg",
     title:
       "FloodNet: Realtime Street-Level Flood Monitoring Across New York City",
     author: "Jon Bosak",
