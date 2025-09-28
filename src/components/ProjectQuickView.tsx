@@ -90,11 +90,14 @@ export default function ProjectQuickView({
                   </a>
                 </li>
               )}
-              <br />
+
               {project.links.documentation && (
-                <h2 className="text-sm font-semibold">
-                  Check out Project documentation here:{" "}
-                </h2>
+                <>
+                  <br />
+                  <h2 className="text-sm font-semibold">
+                    Check out Project documentation here:{" "}
+                  </h2>
+                </>
               )}
               {project.links.documentation && (
                 <li>
@@ -108,10 +111,16 @@ export default function ProjectQuickView({
                   </a>
                 </li>
               )}
-              <br />
-              {project.links.repositories && (
-                <h2 className="text-sm font-semibold">Project Repositories:</h2>
-              )}
+
+              {project.links.repositories &&
+                project.links.repositories.length > 0 && (
+                  <>
+                    <br />
+                    <h2 className="text-sm font-semibold">
+                      Project Repositories:
+                    </h2>
+                  </>
+                )}
               {project.links.repositories?.map((r, i) => (
                 <li key={i}>
                   <a
@@ -125,6 +134,13 @@ export default function ProjectQuickView({
                   </a>
                 </li>
               ))}
+
+              {project.links.extra && project.links.extra.length > 0 && (
+                <>
+                  <br />
+                  <h2 className="text-sm font-semibold">Extra Links:</h2>
+                </>
+              )}
               {project.links.extra?.map((e, i) => (
                 <li key={i}>
                   <a

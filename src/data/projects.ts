@@ -133,7 +133,7 @@ export const activeProjects: Project[] = [
     nextSteps: ["Deploy and test battery longevity."],
     links: {
       documentation: "",
-      repositories: [""],
+      repositories: [],
       website: "",
       extra: ["https://github.com/mcci-catena/HW-Designs"],
     },
