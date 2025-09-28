@@ -1,4 +1,6 @@
+import { activeProjects } from "../data/projects";
 import Mission from "./Mission";
+import ProjectsRail from "./ProjectRail";
 
 export default function Home() {
   return (
@@ -31,6 +33,7 @@ export default function Home() {
       </section>
       {/* mission */}
       <Mission />
+      <ProjectsRail items={activeProjects} />
     </>
   );
 }
