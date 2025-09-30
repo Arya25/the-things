@@ -36,6 +36,12 @@ export default function Header() {
           <a className={navLink} href="#">
             Get Involved
           </a>
+          <NavLink to="/minutes" className={navLink}>
+            Minutes
+          </NavLink>
+          <a className={navLink} href="#">
+            People
+          </a>
         </nav>
       </div>
     </header>

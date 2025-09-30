@@ -30,7 +30,7 @@ export default function ProjectsRail({
   };
 
   return (
-    <section className="mx-auto max-w-5xl px-4 py-14">
+    <section className="mx-auto max-w-7xl px-4 py-14">
       {/* Header */}
       <div className="flex items-end justify-between gap-4">
         <div>
