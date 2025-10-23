@@ -3,7 +3,7 @@ import missionAnim from "../assets/mission.json";
 
 export default function Mission() {
   return (
-    <section className="mx-auto max-w-7xl px-4 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <section className="border border-white rounded-2xl mx-auto max-w-7xl px-4 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center bg-gradient-to-b from-white-500 to-blue-100">
       {/* left side - animation */}
       <div className="flex justify-center">
         <Lottie
@@ -15,7 +15,7 @@ export default function Mission() {
 
       {/* right side - text */}
       <div>
-        <h1 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight">
+        <h1 className="text-black text-4xl md:text-5xl font-semibold leading-tight tracking-tight">
           Our Mission
         </h1>
         <p className="text-lg text-slate-700 leading-relaxed">
