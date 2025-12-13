@@ -10,7 +10,7 @@ import Minutes from "./pages/Minutes.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/the-things">
       <Routes>
         <Route element={<App />}>
           <Route path="/" element={<Home />} />
